@@ -1,12 +1,12 @@
 # My Puzzle Game
 
-This is a simple point-and-click puzzle game developed in Unity.
+This is a simple point and click puzzle game developed in Unity.
 The player’s goal is to select three objects of the same color to clear them from the scene and progress through levels.
 
 # Starting the Game
 
 Before starting any project, it's essential to have a clear idea of the game.
-I began by brainstorming a fun and engaging concept. The idea was to create a point-and-click puzzle game where the player must find three pieces of each color to progress to the next level.
+I began by brainstorming a fun and engaging concept. The idea was to create a point and click puzzle game where the player must find three pieces of each color to progress to the next level.
 I almost forgot the most important part is to actually start making the game.
 
 ## Scene and Game Management
@@ -29,7 +29,7 @@ I started by creating some sample scenes and a main menu scene. The sample scene
 The main menu was created using enums, dictionaries, and a UI Manager, rather than activating/deactivating UI elements manually.
 This system is more scalable and cleaner, even for a small project.
 To achieve this, I created a UI Manager and a Game Manager using the Singleton design pattern, since these components must be universal and unique.
-Event-based UI also helps minimize unnecessary processing menu updates are only triggered when needed.
+Event based UI also helps minimize unnecessary processing menu updates are only triggered when needed.
 
 ## Level 1
 
